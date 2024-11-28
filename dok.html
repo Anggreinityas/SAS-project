@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .dokumentasi {
+        width: 100%;
+        margin-top: 50px;
+        padding: 50px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #7dcec7;
+        border-radius: 10px;
+    }
+    .dokumentasi .wrapper-img {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px;
+    }
+    .dokumentasi .wrapper-img .img-hover {
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        height: 250px;
+    }
+    .dokumentasi .wrapper-img .img-hover img {
+        transition: .3s ease;
+        width: 100%
+    }
+    .dokumentasi .wrapper-img .img-hover:hover img {
+        transform: scale(110%);
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <section class="dokumentasi">
+            <div class="wrapper-img">
+                <div class="img-hover">
+                    <img src="posbindu.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 2.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 3.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 2.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

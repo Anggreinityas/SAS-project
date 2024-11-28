@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            background-color: #ced6eb;
+        }
+        .container {
+            background-color: #01796F;
+            height: 100vh;
+            width: 90%;
+            margin: auto;
+            border-radius: 10px;
+        }
+        header {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            background-color: #ffffff;
+        }
+        nav {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            height: 60px;
+            line-height: 60px;
+            top: 0px;
+            padding: 0 20px;
+        }
+        nav .logo{
+            height: 30%;
+            display: flex;
+            align-items: flex-start;
+        }
+        .nav-menu {
+            display: flex;
+            position: relative;
+            list-style: none;
+        }
+        .nav-menu .nav-item a{
+            height: 100%;
+            color: #94b2da;
+            padding: 0 20px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .nav-menu .nav-item:hover a {
+            color: #dfaaf0;
+        }
+
+        .nav-menu .nav-item:hover ul {
+            height: calc(400% + 10px);
+        }
+        .nav-menu .nav-item ul li a {
+            display: none;
+        }
+
+        .aboud {
+        display: flex;
+        flex-direction: row;
+        justify-content: row;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 900px;
+        width: 700px;
+        height: 600px;  
+
+    }
+    .aboud img {
+        width: 1000px;
+        border-radius: 10px;
+    }
+    .about {
+        font-size: 14px;
+        font-weight: 60px;
+        margin-bottom: 15px;
+        color: #fbfdfd;
+    }
+    .about-text {
+        margin-left: 50px;
+        width: 840px;
+        width: 640px;
+    }
+    .judul {
+        width: 500px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 35px;
+        color: #ccdff0;
+    }
+    .about-text p {
+        word-spacing: 3px;
+        line-height: 25px;
+        color: #fcfcfc;
+    }
+
+        .dokumentasi {
+            width: 100%;
+            margin-top: 50px;
+            padding: 50px ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #7dcec7;
+            border-radius: 10px;
+        }
+        .dokumentasi .wrapper-img {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 30px;
+        }
+        .dokumentasi .wrapper-img .img-hover {
+            position: relative;
+            overflow: hidden;
+            width: 300px;
+            height: 250px;
+        }
+        .dokumentasi .wrapper-img .img-hover img {
+            transition: .3s ease;
+            width: 100%
+        }
+        .dokumentasi .wrapper-img .img-hover:hover img {
+            transform: scale(110%);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src=""alt="">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="">Home</a></li>
+                    <li class="nav-item"><a href="index about.html">About</a></li>
+                    <li class="nav-item"><a href="dok.html">Documentation</a></li>
+                    <li class="nav-item"><a href="index.bayi.html">Form 1</a></li>
+                    <li class="nav-item"><a href="index ortu.html">Form 2</a></li>
+                    <li class="nav-item"><a href="index rekap.html">Form 3</a></li>
+                    <li class="nav-item"><a href="">Faq</a></li>
+
+                </ul>
+                <div class="top-right">
+                    <a href="">Login</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+    <div class="container">
+        <div class="aboud">
+            <img src="about.png" alt="">
+            <div class="about-text">
+                <div class="about">
+                
+                </div>
+                <h1 class="judul">Pengertian Posyandu</h1>
+                <p>Posyandu merupakan perpanjangan tangan Puskesmas yang memberikan
+                     pelayanan dan pemantauan kesehatan yang dilaksanakan secara terpadu.
+                      Kegiatan posyandu dilakukan oleh dan
+                      untuk masyarakat. Posyandu sebagai wadah peran serta masyarakat,
+                       yang menyelenggarakan system pelayanan
+                       pemenuhan kebutuhan dasar, peningkatan kualitas manusia, 
+                       secara empirik telah dapat memeratakan pelayanan
+                        bidang kesehatan. Kegiatan tersebut meliputi pelayanan imunisasi,
+                         pendidikan gizi masyarakat serta pelayanan
+                         kesehatan ibu dan anak </p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <section class="dokumentasi">
+            <div class="wrapper-img">
+                <div class="img-hover">
+                    <img src="posbindu.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 2.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 3.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 2.jpg" alt="">
+                </div>
+                <div class="img-hover">
+                    <img src="posbindu 3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+</body>
+</html>
+
